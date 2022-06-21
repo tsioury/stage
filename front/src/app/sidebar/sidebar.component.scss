@@ -1,4 +1,59 @@
 .sidebar {
     height: 100%;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 20px auto;
+}
+
+li {
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color: #ee5959;
+    color: #fff;
+    cursor: pointer;
+}
+
+.request {
+    background-color: #fff;
+    color: #ee5959;
+    border: 1px solid #ee5959;
+}
+
+svg {
+    height: 40px;
+    color: #000;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.down > * {
+    margin: 10px auto;
+}
+
+button {
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    width: 100%;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ee5959;
+    color: #fff;
+    border: none;
 }
