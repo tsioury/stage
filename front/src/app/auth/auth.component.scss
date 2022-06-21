@@ -1,0 +1,60 @@
+.auth {
+    height: 100vh;
+    background-color: #f6f6fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.center > * {
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ee5959;
+    color: #fff;
+    border: none;
+}
