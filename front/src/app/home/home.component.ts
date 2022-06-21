@@ -8,16 +8,16 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  
+
   authStatus!: boolean;
 
   constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
     this.authStatus = this.authService.isAuth;
-    console.log(this.authStatus);
     if (!this.authStatus) {
       this.router.navigate(['auth']);
     }
   }
+  
 }

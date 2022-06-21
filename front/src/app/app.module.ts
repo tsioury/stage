@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from "@angular/router";
 
 import { AuthService } from './services/auth.service';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { MainComponent } from './main/main.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,7 +21,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AuthComponent,
-    HomeComponent
+    HomeComponent,
+    SidebarComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
