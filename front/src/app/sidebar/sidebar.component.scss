@@ -16,16 +16,16 @@ li {
     border-radius: 20px;
 }
 
-li:hover {
-    background-color: #ee5959;
-    color: #fff;
-    cursor: pointer;
-}
-
 .request {
     background-color: #fff;
     color: #ee5959;
     border: 1px solid #ee5959;
+}
+
+li:hover, .active {
+    background-color: #ee5959;
+    color: #fff;
+    cursor: pointer;
 }
 
 svg {

@@ -10,11 +10,10 @@ import { RouterModule, Routes } from "@angular/router";
 
 import { AuthService } from './services/auth.service';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { MainComponent } from './main/main.component';
+import { RequestComponent } from './request/request.component';
+import { ReceivedComponent } from './received/received.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'auth', component: AuthComponent }
 ]
 
 @NgModule({
@@ -23,7 +22,8 @@ const appRoutes: Routes = [
     AuthComponent,
     HomeComponent,
     SidebarComponent,
-    MainComponent
+    RequestComponent,
+    ReceivedComponent
   ],
   imports: [
     BrowserModule,

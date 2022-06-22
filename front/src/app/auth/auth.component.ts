@@ -15,12 +15,11 @@ export class AuthComponent implements OnInit {
 
   ngOnInit(): void {
     this.authStatus = this.authService.isAuth;
-
   }
 
   onSignIn() {
     this.authService.signIn();
     this.authStatus = this.authService.isAuth;
-    this.router.navigate(['']);
+    this.router.navigate(['home']);
   }
 }
