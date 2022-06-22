@@ -12,6 +12,8 @@ import { AuthService } from './services/auth.service';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { RequestComponent } from './request/request.component';
 import { ReceivedComponent } from './received/received.component';
+import { SentComponent } from './sent/sent.component';
+import { StockComponent } from './stock/stock.component';
 
 const appRoutes: Routes = [
 ]
@@ -23,7 +25,9 @@ const appRoutes: Routes = [
     HomeComponent,
     SidebarComponent,
     RequestComponent,
-    ReceivedComponent
+    ReceivedComponent,
+    SentComponent,
+    StockComponent
   ],
   imports: [
     BrowserModule,
