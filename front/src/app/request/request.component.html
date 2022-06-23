@@ -1,14 +1,22 @@
-<h2>Faire une demande</h2>
-<form action="">
-    <label for="type">Type</label>
-    <select name="type" id="type">
-        <option value="" disabled selected hidden>Selectionner un type</option>
-        <option value="informatique">Informatique</option>
-        <option value="bureautique">Bureautique</option>
-    </select>
-    <label for="wording">Nom</label>
-    <input type="text" name="wording" id="wording">
-    <label for="number">Nombre</label>
-    <input type="number" name="number" id="number">
+<div class="request">
+    <h2>Faire une demande</h2>
+    <form action="">
+        <div class="input">
+            <label for="type">Type</label>
+            <select name="type" id="type">
+                <option value="" disabled selected hidden>Selectionner un type</option>
+                <option value="informatique">Informatique</option>
+                <option value="bureautique">Bureautique</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="wording">Nom</label>
+            <input type="text" name="wording" id="wording">
+        </div>
+        <div class="input">
+            <label for="number">Nombre</label>
+            <input type="number" name="number" id="number">
+        </div>
+    </form>
     <button>Valider</button>
-</form>
+</div>
