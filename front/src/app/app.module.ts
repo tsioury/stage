@@ -15,6 +15,9 @@ import { ReceivedComponent } from './received/received.component';
 import { SentComponent } from './sent/sent.component';
 import { StockComponent } from './stock/stock.component';
 
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 const appRoutes: Routes = [
 ]
 
@@ -32,7 +35,9 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [
     AuthService

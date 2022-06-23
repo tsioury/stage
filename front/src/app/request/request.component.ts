@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RequestComponent implements OnInit {
 
+  type!:string;
+  wording!:string;
+  num!: number;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClick() {
+    console.log(this.type);
+    console.log(this.wording);
+    console.log(this.num);
   }
 
 }
